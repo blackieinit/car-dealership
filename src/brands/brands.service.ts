@@ -73,4 +73,8 @@ export class BrandsService {
     };
     
   }
+
+  fillCarsWhitSeedData( brands: Brand[] ) {
+    this.brands = brands;
+  }
 }
